@@ -2,28 +2,26 @@
 
 
 ##一、
-Demo名称：基本地图功能
-文件名：  BaseMapDemo.java
+Demo名称：基本地图功能  
+文件名：  `BaseMapDemo.java`
 
-简介：创建一张百度地图并管理地图的生命周期
-详述：
+简介：创建一张百度地图并管理地图的生命周期  
+详述：  
 1. 创建一张最简单的百度地图；
-
 2. 管理地图的生命周期，具体请参看代码部分的相关注释；
-
 3. 可监听地图加载完成事件；
 
 ##二、
 Demo名称：MapFragment使用
-文件名：  MapFragmentDemo.java
+文件名：  `MapFragmentDemo.java`
 
-简介：介绍在Fragment框架下使用地图
+简介：介绍在`Fragment`框架下使用地图
 详述：
-1. 介绍了如何在Fragment框架下添加一个地图地图控件；
+1. 介绍了如何在`Fragment`框架下添加一个地图地图控件；
 
 ##三、
 Demo名称：图层展示功能
-文件名：  LayersDemo.java
+文件名：  `LayersDemo.java`
 
 简介：展示普通图、卫星图、交通流量图和百度城市热力图
 详述：
@@ -33,27 +31,27 @@ Demo名称：图层展示功能
 
 ##四、
 Demo名称：多地图展示
-文件名：  MultiMapViewDemo.java
+文件名：  `MultiMapViewDemo.java`
 
 简介：介绍多MapView的使用
 详述：
-1. 在一个界面内，同时建立四个MapView控件；
+1. 在一个界面内，同时建立四个`MapView`控件；
 2. 地图Logo位置变更，支持6个位置，多图展示中只展示了4个位置
 
 ##五、
 Demo名称：地图操作功能
-文件名：  MapControlDemo.java
+文件名：  `MapControlDemo.java`
 
 简介：介绍平移和缩放地图，双指操作地图，监听地图点击事件
 详述：
 1. 介绍地图缩放级别、旋转度和俯视度的get和set方法；
 2. 监听单击和长按地图事件；
 3. 单击、双击和长按地图获取该点的经纬度坐标；
-4. 对地图显示内容进行截图，截图保存地址为：/mnt/sdcard/test.png；
+4. 对地图显示内容进行截图，截图保存地址为：`/mnt/sdcard/test.png`；
 
 ##六、
 Demo名称：UI控制功能
-文件名：  UISettingsDemo.java
+文件名：  `UISettingsDemo.java`
 
 简介：介绍开关手势功能和显示隐藏UI控件
 详述：
@@ -62,12 +60,12 @@ Demo名称：UI控制功能
 3. 指南针位置控制：显示在地图左上角或者右上角（仅举例），开发者可据实际情况任意改变位置；
 4. 底图标注开关：控制显示/隐藏底图POI，隐藏POI可得到仅显示道路信息的地图
 5. 禁用所有手势：控制是否一并禁止所有手势。
-6. 设置地图setPadding，防止UI遮挡Logo等。
+6. 设置地图`setPadding`，防止UI遮挡Logo等。
 
 
 ##七、
 Demo名称：定位图层展示
-文件名：  LocationOverlayDemo.java
+文件名：  `LocationOverlayDemo.java`
 
 简介：介绍定位图层的基本用法
 详述：
@@ -79,7 +77,7 @@ Demo名称：定位图层展示
 
 ##八、
 Demo名称：自定义绘制功能
-文件名：  GeometryDemo.java
+文件名：  `GeometryDemo.java`
 
 简介：介绍自定义绘制点、线、多边形、圆等几何图形和文字
 详述：
@@ -88,19 +86,19 @@ Demo名称：自定义绘制功能
 
 ##九、
 Demo名称：覆盖物功能
-文件名：  OverlayDemo.java
+文件名：  `OverlayDemo.java`
 
 简介：介绍添加覆盖物并响应点击功能和弹出pop功能
 详述：
 1. 在popup中添加弹出自定义View的示例；
-2. 点击周围4个Marker，弹出popup,可更新marker位置和更新marker图标；
+2. 点击周围4个`Marker`，弹出`popup`,可更新`marker`位置和更新`marker`图标；
 3. 中间显示的为图片图层，该图层可随地图的移动、缩放等做出相应的操作；
-4. 支持Maker设置透明度的方法，利用滑动条可以展示maker透明度变化；
-5. 支持Marker设置动画的能力，包含两种方式：从地上生长和从天上落下
+4. 支持`Maker`设置透明度的方法，利用滑动条可以展示`maker`透明度变化；
+5. 支持`Marker`设置动画的能力，包含两种方式：从地上生长和从天上落下
 
 c十、
 Demo名称：热力图功能
-文件名：  HeatMapDemo.java
+文件名： `HeatMapDemo.java`
 
 简介绘制自有数据热力图
 详述：
@@ -110,7 +108,7 @@ Demo名称：热力图功能
 
 ##十一、
 Demo名称：地理编码功能
-文件名：  GeoCodeDemo.java
+文件名：  `GeoCodeDemo.java`
 
 简介：介绍地址信息与坐标之间的相互转换
 详述：
@@ -119,27 +117,27 @@ Demo名称：地理编码功能
 
 ##十二、
 Demo名称：POI搜索功能
-文件名：  POISearchDemo.java
+文件名：  `POISearchDemo.java`
 
 简介：介绍关键词查询、suggestion查询和查看餐饮类Place详情页功能
 详述：
 1. 点击某些关键词查询后的结果（如“餐厅”）可跳转到Place详情页；
-2. 提供suggestion查询进行联想查询，例如输入“天安门”则会弹出联想查询的列表；
+2. 提供`suggestion`查询进行联想查询，例如输入“天安门”则会弹出联想查询的列表；
 
 ##十三、
 Demo名称：路径规划功能
-文件名：  RoutePlanDemo.java, CustomRouteOverlay.java
+文件名：  `RoutePlanDemo.java, CustomRouteOverlay.java`
 
 简介：介绍公交、驾车、骑行和步行三种线路规划方法和自设路线方法
 详述：
 1. 驾车查询新增路径点查询功能，具体使用方法详见开发者指南路径规划部分，只需重载接口；
 2. 自设路线功能演示开发者如何自己设定一条路线，包括如何设定起点、终点、途径站点和路段；
-3. 自设路线功能同时也介绍如何在两个Activity之间切换的时候管理Mapview的生命周期；
+3. 自设路线功能同时也介绍如何在两个`Activity`之间切换的时候管理`Mapview`的生命周期；
 4. 可自定义路线的起终点图标；
 
 ##十四、
 Demo名称：公交线路查询功能
-文件名：  BusLineDemo.java
+文件名：  `BusLineDemo.java`
 
 简介：介绍查询公交线路功能
 1. 点击“开始”按钮可查询公交线路；
@@ -148,7 +146,7 @@ Demo名称：公交线路查询功能
 
 ##十五、
 Demo名称：短串分享功能
-文件名：  ShareDemo.java
+文件名：  `ShareDemo.java`
 
 简介：将POI点、反Geo点和公交/驾车/骑行/步行线路规划,生成短链接以分享给好友
 详述：
@@ -159,7 +157,7 @@ Demo名称：短串分享功能
 
 ##十六、
 Demo名称：离线地图功能
-文件名：  OfflineDemo.java
+文件名：  `OfflineDemo.java`
 
 简介：介绍如何下载和使用离线地图
 详述：
@@ -167,7 +165,7 @@ Demo名称：离线地图功能
 
 ##十七、
 Demo名称：周边雷达功能--RadarDemo
-文件名：RadarDemo.java
+文件名：`RadarDemo.java`
 
 注意：需要把应用的key在官网的雷达注册页面进行相关的注册才能使用！
 注册网址：http://developer.baidu.com/map/index.php?title=radar
@@ -182,7 +180,7 @@ Demo名称：周边雷达功能--RadarDemo
 
 ##十八、
 Demo名称：调启百度地图
-文件名：  OpenBaiduMap.java
+文件名：  `OpenBaiduMap.java`
 
 简介：介绍如果利用简单接口调用，开启百度地图客户端实现复杂逻辑业务
 详述：
@@ -198,7 +196,7 @@ Demo名称：调启百度地图
 
 ##十九、
 Demo名称：点收藏功能--FavoriteDemo
-文件名：FavoriteDemo.java
+文件名：`FavoriteDemo.java`
 
 简介：介绍如何创建、管理本地点数据
 详述：
@@ -208,7 +206,7 @@ Demo名称：点收藏功能--FavoriteDemo
 
 ##二十、
 Demo名称：LBS.云检索功能
-文件名：  CloudSearchDemo.java
+文件名：  `CloudSearchDemo.java`
 
 简介：介绍如何使用LBS.云检索用户自有数据
 注意：自v2.2.0起，SDK支持LBS云v2版的检索，使用v1版的用户请尽快完成升级或使用较低SDK版本。
@@ -223,16 +221,16 @@ Demo名称：LBS.云检索功能
 
 ##二十一、
 Demo名称：OpenGL绘制功能
-文件名：  OpenGLDemo.java
+文件名：  `OpenGLDemo.java`
 
-简介：介绍如何使用OpenGL在地图上实现自定义绘制
+简介：介绍如何使用`OpenGL`在地图上实现自定义绘制
 详述：
-1. 利用OpenGL绘制基本折线；
-2. 利用OpenGL在地图上进行纹理绘制；
+1. 利用`OpenGL`绘制基本折线；
+2. 利用`OpenGL`在地图上进行纹理绘制；
 
 ##二十二、
 Demo名称：点聚合功能--MakerClusterDemo
-文件名：  MarkerClusterDemo.java
+文件名：  `MarkerClusterDemo.java`
 
 
 简介：新增点聚合功能，可通过缩小地图层级，将定义范围内的多个标注点，聚合显示成一个标注点
@@ -241,28 +239,28 @@ Demo名称：点聚合功能--MakerClusterDemo
 
 ##二十三、
 Demo名称：瓦片图功能--TileOverlayDemo
-文件名：TileOverlayDemo.java
+文件名：`TileOverlayDemo.java`
 
 简介：瓦片图层支持开发者添加自有瓦片数据，包括在线下载和本地加载两种方式。
 详述：
 1. 在线下载方式
 2. 本地加载方式
-3. 将地图类型设置为NONE，不下载地图底图瓦片
+3. 将地图类型设置为`NONE`，不下载地图底图瓦片
 4. 控制了地图显示范围，仅显示设置范围内的地图
 
 
 ##二十四、
-Demo名称：地图有TextureView渲染
-文件名:TextureMapViewDemo.java
+Demo名称：地图有`TextureView`渲染
+文件名:`TextureMapViewDemo.java`
 
 使用前提：Android 4.0以上系统，并开启强制GPU渲染
-简介：新增了TextureMapView类，实现地图由TextureView渲染。解决原MapView基于系统GLSurfaceView导致在TabHost和scrollView中等闪黑屏、白边、压盖等问题。
+简介：新增了`TextureMapView`类，实现地图由`TextureView`渲染。解决原`MapView`基于系统`GLSurfaceView`导致在`TabHost`和`scrollView`中等闪黑屏、白边、压盖等问题。
 
 
 
 ##二十五、
 Demo名称：行政区域边界数据检索
-文件名称：DistrictSearchDemo.java
+文件名称：`DistrictSearchDemo.java`
 
 简介:介绍如何使用行政区域边界数据检索功能，绘制行政区覆盖物和边框
 
@@ -274,5 +272,5 @@ Demo名称：行政区域边界数据检索
 ##二十六、设置个性化地图的方法
 
 未在demo中给出，设置方法如下：
-MapView/TextureMapView 新增setCustomMapStylePath(String customMapStylePath),设置自定义地图样式文件绝对路径。该方法需在MapView/TextureMapView构造之前设置。
+`MapView/TextureMapView` 新增`setCustomMapStylePath(StringcustomMapStylePath)`,设置自定义地图样式文件绝对路径。该方法需在`MapView/TextureMapView`构造之前设置。
 
