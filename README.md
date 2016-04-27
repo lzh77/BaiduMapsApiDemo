@@ -1,5 +1,5 @@
 #百度地图Android SDK v3.7.3 Sample  
-共有25个Demo,每个Demo的说明如下：
+##共有25个Demo,每个Demo的说明如下：
 
 
 ##一、
@@ -273,6 +273,9 @@ Demo名称：行政区域边界数据检索
 ##二十六、设置个性化地图的方法
 
 未在demo中给出，设置方法如下：  
-`MapView/TextureMapView` 新增```java
-setCustomMapStylePath(StringcustomMapStylePath)```,设置自定义地图样式文件绝对路径。该方法需在`MapView/TextureMapView`构造之前设置。
+`MapView/TextureMapView` 新增
+```java
+setCustomMapStylePath(StringcustomMapStylePath)
+```
+,设置自定义地图样式文件绝对路径。该方法需在`MapView/TextureMapView`构造之前设置。
 
