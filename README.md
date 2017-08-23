@@ -1,8 +1,8 @@
-#百度地图Android SDK v3.7.3 Sample  
-##共有25个Demo,每个Demo的说明如下：
+# 百度地图Android SDK v3.7.3 Sample  
+## 共有25个Demo,每个Demo的说明如下：
 
 
-##一、
+## 一、
 Demo名称：基本地图功能  
 文件名：  `BaseMapDemo.java`
 
@@ -12,7 +12,7 @@ Demo名称：基本地图功能
 2. 管理地图的生命周期，具体请参看代码部分的相关注释；
 3. 可监听地图加载完成事件；
 
-##二、
+## 二、
 Demo名称：MapFragment使用  
 文件名：  `MapFragmentDemo.java`  
 
@@ -20,7 +20,7 @@ Demo名称：MapFragment使用
 详述：  
 1. 介绍了如何在`Fragment`框架下添加一个地图地图控件；
 
-##三、
+## 三、
 Demo名称：图层展示功能  
 文件名：  `LayersDemo.java`  
 
@@ -30,7 +30,7 @@ Demo名称：图层展示功能
 2. 在普通图或卫星图上叠加交通流量图；  
 3. 在普通图或卫星图上叠加百度城市热力图；  
 
-##四、
+## 四、
 Demo名称：多地图展示  
 文件名：  `MultiMapViewDemo.java`  
 
@@ -39,7 +39,7 @@ Demo名称：多地图展示
 1. 在一个界面内，同时建立四个`MapView`控件；  
 2. 地图Logo位置变更，支持6个位置，多图展示中只展示了4个位置
 
-##五、
+## 五、
 Demo名称：地图操作功能  
 文件名：  `MapControlDemo.java`  
 
@@ -50,7 +50,7 @@ Demo名称：地图操作功能
 3. 单击、双击和长按地图获取该点的经纬度坐标；  
 4. 对地图显示内容进行截图，截图保存地址为：`/mnt/sdcard/test.png`；
 
-##六、
+## 六、
 Demo名称：UI控制功能  
 文件名：  `UISettingsDemo.java`  
 
@@ -64,7 +64,7 @@ Demo名称：UI控制功能
 6. 设置地图`setPadding`，防止UI遮挡Logo等。
 
 
-##七、
+## 七、
 Demo名称：定位图层展示  
 文件名：  `LocationOverlayDemo.java`  
 
@@ -76,7 +76,7 @@ Demo名称：定位图层展示
 4. 定位SDK开发指南详见http://developer.baidu.com/map/geosdk-android.htm；  
 5. 支持开发者自定义精度圈边框和填充区域的颜色。  
 
-##八、
+## 八、
 Demo名称：自定义绘制功能  
 文件名：  `GeometryDemo.java`  
 
@@ -85,7 +85,7 @@ Demo名称：自定义绘制功能
 1. 支持绘制凸多边形，如要绘制凹多边形请用三角形进行拼接；  
 2. 支持绘制文字；
 
-##九、
+## 九、
 Demo名称：覆盖物功能  
 文件名：  `OverlayDemo.java`  
 
@@ -97,7 +97,7 @@ Demo名称：覆盖物功能
 4. 支持`Maker`设置透明度的方法，利用滑动条可以展示`maker`透明度变化；  
 5. 支持`Marker`设置动画的能力，包含两种方式：从地上生长和从天上落下  
 
-##十、
+## 十、
 Demo名称：热力图功能  
 文件名： `HeatMapDemo.java`  
 
@@ -107,7 +107,7 @@ Demo名称：热力图功能
 2. 准备数据、生成热力图；  
 3. 删除热力图；  
 
-##十一、
+## 十一、
 Demo名称：地理编码功能  
 文件名：  `GeoCodeDemo.java`  
 
@@ -116,7 +116,7 @@ Demo名称：地理编码功能
 1. 正向地理编码：将地址信息转换为经纬度坐标；  
 2. 反向地理编码：将经纬度坐标转换为地址信息；  
 
-##十二、
+## 十二、
 Demo名称：POI搜索功能  
 文件名：  `POISearchDemo.java`  
 
@@ -125,7 +125,7 @@ Demo名称：POI搜索功能
 1. 点击某些关键词查询后的结果（如“餐厅”）可跳转到Place详情页；  
 2. 提供`suggestion`查询进行联想查询，例如输入“天安门”则会弹出联想查询的列表；  
 
-##十三、
+## 十三、
 Demo名称：路径规划功能  
 文件名：  `RoutePlanDemo.java, CustomRouteOverlay.java`  
 
@@ -136,7 +136,7 @@ Demo名称：路径规划功能
 3. 自设路线功能同时也介绍如何在两个`Activity`之间切换的时候管理`Mapview`的生命周期；  
 4. 可自定义路线的起终点图标；  
 
-##十四、
+## 十四、
 Demo名称：公交线路查询功能  
 文件名：  `BusLineDemo.java`  
 
@@ -145,7 +145,7 @@ Demo名称：公交线路查询功能
 2. 搜索出公交线路后点击“下一条”按钮可查询该线路的反方向公交线路；  
 
 
-##十五、
+## 十五、
 Demo名称：短串分享功能  
 文件名：  `ShareDemo.java`  
 
@@ -156,7 +156,7 @@ Demo名称：短串分享功能
 3. 暂时开放了“POI搜索结果分享”、“公交/驾车/骑行/步行线路规划”和“反向地理编码结果分享”；  
 4. 日后会开放更多的功能，欢迎广大开发者使用短串分享功能；  
 
-##十六、
+## 十六、
 Demo名称：离线地图功能  
 文件名：  `OfflineDemo.java`  
 
@@ -164,7 +164,7 @@ Demo名称：离线地图功能
 详述：  
 1. 可以搜索、下载、删除、查看离线地图；  
 
-##十七、
+## 十七、
 Demo名称：周边雷达功能--RadarDemo  
 文件名：`RadarDemo.java`  
 
@@ -179,7 +179,7 @@ Demo名称：周边雷达功能--RadarDemo
 4. 用列表的形式及地图的形式展示周边用户的位置等信息；  
 
 
-##十八、
+## 十八、
 Demo名称：调启百度地图  
 文件名：  `OpenBaiduMap.java`  
 
@@ -195,7 +195,7 @@ Demo名称：调启百度地图
 8. 调启百度地图步行导航；(需百度地图App 8.6.6以上版本支持)  
 9. 调启百度地图骑行导航(需百度地图App 8.6.6以上版本支持)  
 
-##十九、
+## 十九、
 Demo名称：点收藏功能--FavoriteDemo  
 文件名：`FavoriteDemo.java`  
 
@@ -205,7 +205,7 @@ Demo名称：点收藏功能--FavoriteDemo
 2. 查看已收藏本地点；  
 3. 删除已收藏本地点；  
 
-##二十、
+## 二十、
 Demo名称：LBS.云检索功能  
 文件名：  `CloudSearchDemo.java`  
 
@@ -220,7 +220,7 @@ Demo名称：LBS.云检索功能
 6. 详细了解LBS.云，欢迎访问：http://developer.baidu.com/map/lbs-cloud.htm  
 7. 申请ak及管理数据等问题，欢迎访问LBS开放平台官网：http://lbsyun.baidu.com/  
 
-##二十一、
+## 二十一、
 Demo名称：OpenGL绘制功能  
 文件名：  `OpenGLDemo.java`  
 
@@ -229,7 +229,7 @@ Demo名称：OpenGL绘制功能
 1. 利用`OpenGL`绘制基本折线；  
 2. 利用`OpenGL`在地图上进行纹理绘制；  
 
-##二十二、
+## 二十二、
 Demo名称：点聚合功能--MakerClusterDemo  
 文件名：  `MarkerClusterDemo.java`  
 
@@ -238,7 +238,7 @@ Demo名称：点聚合功能--MakerClusterDemo
 详述：  
 1. 支持缩放地图，实现点聚合功能  
 
-##二十三、
+## 二十三、
 Demo名称：瓦片图功能--TileOverlayDemo  
 文件名：`TileOverlayDemo.java`  
 
@@ -250,7 +250,7 @@ Demo名称：瓦片图功能--TileOverlayDemo
 4. 控制了地图显示范围，仅显示设置范围内的地图  
 
 
-##二十四、
+## 二十四、
 Demo名称：地图有`TextureView`渲染  
 文件名:`TextureMapViewDemo.java`  
 
@@ -259,7 +259,7 @@ Demo名称：地图有`TextureView`渲染
 
 
 
-##二十五、
+## 二十五、
 Demo名称：行政区域边界数据检索  
 文件名称：`DistrictSearchDemo.java`  
 
@@ -270,7 +270,7 @@ Demo名称：行政区域边界数据检索
 
 
 
-##二十六、设置个性化地图的方法
+## 二十六、设置个性化地图的方法
 
 未在demo中给出，设置方法如下：  
 `MapView/TextureMapView` 新增`setCustomMapStylePath(StringcustomMapStylePath)`,设置自定义地图样式文件绝对路径。该方法需在`MapView/TextureMapView`构造之前设置。
